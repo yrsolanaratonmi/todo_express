@@ -1,0 +1,195 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.todo_list {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: black 4px solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(58, 145, 236, 0.16);
+}
+
+.name {
+    font-size: 48px;
+    margin: 50px auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input_field {
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    min-width: 80%;
+    background-color: rgba(58, 145, 236, 0.22);
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.input_field input {
+    border-radius: 10px;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    color: #4d4d4d;
+    height: 30px;
+    padding: 0 20px;
+    width: 80%;
+}
+
+.input_field input:focus {
+    outline: none;
+}
+
+.input_field input::placeholder {
+    color: lightslategray;
+}
+
+.input_field button {
+    background-color: rgba(58, 145, 236, 0.22);
+    margin-left: 50px;
+    margin-top: 32px;
+    color: black;
+    width: 100px;
+    max-height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.tasks {
+    max-width: 80%;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    background-color: rgba(58, 129, 236, 0.58);
+    border-radius: 10px;
+    width: 100%;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.operators {
+    width: 50%;
+    margin: auto 20px;
+    display: flex;
+    flex-direction: row;
+}
+.operators button {
+    background-color: rgba(58, 145, 236, 0.22);
+    margin-left: 10px;
+    color: black;
+    width: 100px;
+    max-height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.task_text p {
+    word-break: break-all;
+    margin-left: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.edit {
+    background-color: rgba(58, 129, 236, 0.58);
+    border-radius: 10px;
+    width: 100%;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+    margin-left: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.operators {
+    width: 50%;
+    margin: auto 20px;
+    display: flex;
+    flex-direction: row;
+}
+.operators button {
+    background-color: rgba(58, 145, 236, 0.22);
+    margin-left: 10px;
+    color: black;
+    padding: 10px;
+    width: 100px;
+    max-height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.edit input {
+    border-radius: 10px;
+    border: black 2px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    color: #4d4d4d;
+    height: 30px;
+    padding: 0 20px;
+    width: 48%;
+}
+
+.edit input:focus {
+    outline: none;
+}
+
+.edit input::placeholder {
+    color: lightslategray;
+}
+.hidden {
+    display: none;
+}
+.active {
+    display: flex;
+}

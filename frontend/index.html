@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+</head>
+<body onload="fetchData()">
+<div class="container">
+    <div class="todo_list">
+        <p class="name">TODO LIST</p>
+        <div class="input_field">
+            <label>
+                <input maxlength = '300' type="text" placeholder="enter task" onchange="getTask()" autofocus/>
+            </label>
+            <button onclick="addTask()">add</button>
+        </div>
+        <div id = 'tasks' class="tasks"></div>
+    </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
