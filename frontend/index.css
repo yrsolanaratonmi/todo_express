@@ -74,14 +74,8 @@ body {
 }
 
 .tasks {
-<<<<<<< HEAD
     width: 80%;
     margin: 0 auto;
-=======
-    max-width: 80%;
-    margin: 0 auto;
-    width: 100%;
->>>>>>> origin/main
     display: flex;
     flex-direction: column;
 }
@@ -109,22 +103,14 @@ body {
     margin: auto 20px;
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     align-items: center;
     justify-content: center;
 }
 
-=======
-}
->>>>>>> origin/main
 .operators button {
     background-color: rgba(58, 145, 236, 0.22);
     margin-left: 10px;
     color: black;
-<<<<<<< HEAD
-=======
-    width: 100px;
->>>>>>> origin/main
     max-height: 30px;
     align-items: center;
     border-radius: 10px;
@@ -141,15 +127,12 @@ body {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
-<<<<<<< HEAD
 
 .completed {
     text-decoration: line-through;
     color: #5C6672;
 }
 
-=======
->>>>>>> origin/main
 .edit {
     background-color: rgba(58, 129, 236, 0.58);
     border-radius: 10px;
@@ -179,10 +162,7 @@ body {
     display: flex;
     flex-direction: row;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
 .operators button {
     background-color: rgba(58, 145, 236, 0.22);
     margin-left: 10px;
@@ -197,15 +177,12 @@ body {
     display: flex;
     justify-content: center;
 }
-<<<<<<< HEAD
 
 .checkbox {
     width: 20px !important;
     height: 20px !important;
 }
 
-=======
->>>>>>> origin/main
 .edit input {
     border-radius: 10px;
     border: black 2px solid;
@@ -224,7 +201,6 @@ body {
 .edit input::placeholder {
     color: lightslategray;
 }
-<<<<<<< HEAD
 
 .hidden {
     display: none;
@@ -311,11 +287,3 @@ body {
         width: 90%;
     }
 }
-=======
-.hidden {
-    display: none;
-}
-.active {
-    display: flex;
-}
->>>>>>> origin/main
